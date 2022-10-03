@@ -3,6 +3,13 @@
 /*Bulma */
 @import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
 
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+/*Local*/
+@import url(./navbar.css);
+
+
 /* --- vars --- */
 
 :root{
@@ -27,6 +34,7 @@
     --title4-size: 24px;
 
     /*Fonts*/
+    --ff: 'Roboto', sans-serif;
     --fs-body-intro: 24px;
     --fw-body-intro: medium;
     --fs-body: 20;
@@ -41,4 +49,5 @@
 
 body{
     background-color: var(--backgroundColor);
+    font-family: var(--ff);
 }

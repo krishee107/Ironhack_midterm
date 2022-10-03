@@ -1,0 +1,40 @@
+.navbar, a.navbar-item:hover {
+    justify-content: center;
+    background-color: transparent;
+}
+a.navbar-item:hover{
+    font-weight: bold;
+}
+
+.navbar-items {
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    color: var(--textColor);
+    font-size: var( --fs-headline);
+    font-weight: 500;
+    gap: 60px;
+}.navbar-items:hover, .navbar-items a:first-child{
+    color: var(--buttonColor);
+}
+
+
+.contactButton {
+    background-color: var(--buttonColor) !important;
+    border-radius: unset !important;
+    min-width: 150px;
+    min-height: 52px;
+    font-size: var( --fs-headline);
+}
+
+.is-active{
+    background-color: white;
+}
+#menu-hamburguesa.is-active{
+    box-shadow: 0px 10px 9px rgb(10 10 10 / 10%)
+}
+@media (min-width:1024px) {
+    .navbar-items{
+        display: flex;
+    }
+}

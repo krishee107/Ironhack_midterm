@@ -9,34 +9,40 @@
 </head>
 <body>
     
-    <main>
+    <main class="container">
 
         <!-- header -->
-        <header  class="navbar">
-            <div class="navbar-logo navbar-brand navbar-item">
-                <img src="" alt="" class="logo">
-            </div>
-
-            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar">
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+              <a class="navbar-item" href="#">
+                <img src="./img/logos/circle.svg" width="112" height="28">
+              </a>
+          
+              <a role="button" id="btn-hamburguesa" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
               </a>
-
-            <nav class="navbar-menu" id="navbar">
+            </div>
+          
+            <div id="menu-hamburguesa"  class="navbar-menu">
+              <div class="navbar-items ">
                 <a href="#" class="navItem navbar-item">Home</a>
                 <a href="#" class="navItem navbar-item">Projects</a>
                 <a href="#" class="navItem navbar-item">Services</a>
-            </nav>
-
-            <div class="navbar-end buttons navbar-item">
-                <div class="contactButton button is-link">
-                    Contact
+              </div>
+          
+              <div class="navbar-end">
+                <div class="navbar-item">
+                  <div class="buttons">
+                    <div class="contactButton button is-link">Contact</div>
+                  </div>
                 </div>
+              </div>
+
             </div>
-        </header>
-
-
+          </nav>
+        
         <!-- Top box info content-->
         <div class="infoBox">
             <div class="infoBox__info">
@@ -189,5 +195,7 @@
 
     </main>
 
+    
+    <script src="./js/navbar.js"></script>
 </body>
 </html>
