@@ -1,0 +1,22 @@
+.project_cards{
+    gap: 40px;
+    margin-top: 5% !important;
+    margin: 0 auto;
+}
+.card img{
+    width: 340px;
+    height: 240px;
+}
+
+.card-text, .card-link{
+    font-size: var(--fs-headline);
+    font-weight: var(--fw-body-intro);
+}
+.card-text{
+    color: var(--textColor);
+    padding: 10px 0 50px;
+    opacity: 0.5;
+}
+.card-link{
+    color: var(--buttonColor);
+}

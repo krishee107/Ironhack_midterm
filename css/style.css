@@ -10,6 +10,7 @@
 @import url(./navbar.css);
 @import url(./hero-box.css);
 @import url(./sponsors.css);
+@import url(./projects.css);
 
 /* --- vars --- */
 
@@ -59,13 +60,14 @@ body{
 }
 
 /* H1, h2, h3... */
-h1,h2,h3{
+h1,h2,h3, h4{
     color: var(--titleColor);
     font-weight: var(--title-weight);
 }
 h1{font-size: var(--title-size);}
 h2{font-size: var(--title2-size);}
 h3{font-size: var(--title3-size);}
+h4{font-size: var(--title4-size);}
 
 @media (max-width:1024px) {
     .container{

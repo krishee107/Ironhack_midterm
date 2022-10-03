@@ -3,14 +3,13 @@
 .hero-box__info{
     display: grid;
     gap: 30px;
-    padding-right: 10%;
 }
 
 .hero-box__text{
     font-weight: var(--fw-body);
     color: var(--textColor);
     font-size: var(--fs-body);
-    max-width: 69%;
+    max-width: 65%;
 }
 
 /* Botones */
