@@ -12,15 +12,28 @@
     <main>
 
         <!-- header -->
-        <header>
-            <img src="" alt="" class="logo">
-            <nav>
-                <a href="#" class="navItem">Home</a>
-                <a href="#" class="navItem">Projects</a>
-                <a href="#" class="navItem">Services</a>
+        <header  class="navbar">
+            <div class="navbar-logo navbar-brand navbar-item">
+                <img src="" alt="" class="logo">
+            </div>
+
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+              </a>
+
+            <nav class="navbar-menu" id="navbar">
+                <a href="#" class="navItem navbar-item">Home</a>
+                <a href="#" class="navItem navbar-item">Projects</a>
+                <a href="#" class="navItem navbar-item">Services</a>
             </nav>
 
-            <div class="contactButton"></div>
+            <div class="navbar-end buttons navbar-item">
+                <div class="contactButton button is-link">
+                    Contact
+                </div>
+            </div>
         </header>
 
 
