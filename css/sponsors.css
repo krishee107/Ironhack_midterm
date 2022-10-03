@@ -1,0 +1,15 @@
+.sponsor img{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.sponsors.columns{
+    overflow: hidden;
+    margin: 0 !important;
+}
+
+@media (max-width: 769px) {
+    .sponsor:last-child {
+        display: none !important;
+    }
+}

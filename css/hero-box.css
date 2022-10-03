@@ -1,3 +1,5 @@
+.hero-box{overflow: hidden;}
+    
 .hero-box__info{
     display: grid;
     gap: 30px;
