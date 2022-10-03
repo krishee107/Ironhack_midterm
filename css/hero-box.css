@@ -6,12 +6,6 @@
     padding-right: 10%;
 }
 
-.hero-box h1{
-    font-weight: var(--title-weight);
-    font-size: var(--title-size);
-    color: var(--titleColor);
-}
-
 .hero-box__text{
     font-weight: var(--fw-body);
     color: var(--textColor);
