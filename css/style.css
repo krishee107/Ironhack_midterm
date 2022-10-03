@@ -8,7 +8,7 @@
 
 /*Local*/
 @import url(./navbar.css);
-
+@import url(./hero-box.css);
 
 /* --- vars --- */
 
@@ -50,4 +50,15 @@
 body{
     background-color: var(--backgroundColor);
     font-family: var(--ff);
+}
+
+.container{
+    display: grid;
+    gap: 100px;
+}
+
+@media (max-width:1024px) {
+    .container{
+        gap: 35px
+    }
 }

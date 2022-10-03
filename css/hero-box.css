@@ -1,0 +1,37 @@
+.hero-box__info{
+    display: grid;
+    gap: 30px;
+}
+
+.hero-box h1{
+    font-weight: var(--title-weight);
+    font-size: var(--title-size);
+    color: var(--titleColor);
+}
+
+.hero-box__text{
+    font-weight: var(--fw-body);
+    color: var(--textColor);
+    font-size: var(--fs-body);
+}
+
+.get-in-touch{
+    background-color: var(--buttonColor) !important;
+    margin-right: 40px;
+}.see-our-work{
+    border: none;
+    background-color: transparent;
+    color: var(--textColor);
+    font-weight: 500;
+}
+
+@media (max-width:1023px) {
+    .hero-box{
+        max-width: 90%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width:700px) {
+    .hero-box__buttons{margin: 0 auto;}
+}
