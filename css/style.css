@@ -1,2 +1,44 @@
+/* --- Imports --- */
+
 /*Bulma */
 @import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+
+/* --- vars --- */
+
+:root{
+    --buttonColor: #072AC8;
+    --titleColor: #292E47;
+    --questionColor: #FFC600;
+    --textColor: #6B708D;
+    --backgroundColor: #F2F4FC;
+    --color1: #43D2FF;
+    --color2: #A2D6F9 ;
+    --color3: #D1EDFF;
+    --color4: #ECF7FF;
+
+    /*h1*/
+    --title-weight: bold;
+    --title-size: 60px;
+    /*h2*/
+    --title2-size: 50px;
+    /*h3*/
+    --title3-size: 40px;
+    /*h4*/
+    --title4-size: 24px;
+
+    /*Fonts*/
+    --fs-body-intro: 24px;
+    --fw-body-intro: medium;
+    --fs-body: 20;
+    --fw-body: regular;
+
+    --fs-headline: 17px;
+    --fs-caption:15px;
+    --fs-caption2:13px;
+}
+
+/* --- General --- */
+
+body{
+    background-color: var(--backgroundColor);
+}
