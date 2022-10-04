@@ -1,4 +1,9 @@
 /*Header*/
+.project-info {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
 .project-header {
     display: flex;
     justify-content: space-between;

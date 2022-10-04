@@ -16,14 +16,14 @@
 .get-in-touch{
     background-color: var(--buttonColor) !important;
     margin-right: 40px;
-    border-radius: unset;
     min-width: 150px;
     min-height: 52px;
 }.see-our-work{
-    border: none;
-    background-color: transparent;
+    background-color: transparent !important;
     color: var(--textColor);
     font-weight: 500;
+}.see-our-work:hover{
+    color:var(--buttonColor) !important
 }
 
 /*Imagenes*/

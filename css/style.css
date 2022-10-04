@@ -16,6 +16,7 @@
 @import url(./questions.css);
 @import url(./footer.css);
 @import url(./project-info.css);
+@import url(./contact.css);
 
 /* --- vars --- */
 
@@ -86,9 +87,17 @@ h2{font-size: var(--title2-size);}
 h3{font-size: var(--title3-size);}
 h4{font-size: var(--title4-size);}
 
+/*Buttons */
+.button{
+    border: none;
+    border-radius: unset;
+}
+.button:hover{
+    color: white ;
+}
+
 @media (max-width:1024px) {
     .container{
         gap: 35px;
-        max-width: 90%;
     }
 }
