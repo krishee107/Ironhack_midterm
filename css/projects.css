@@ -8,8 +8,8 @@
 .card {
     padding:0 !important;
     min-width: 340px;
-    max-width: 90%;
     margin: 0 auto;
+    max-width: 340px;
 }
 .card-image{
     height: 240px;
