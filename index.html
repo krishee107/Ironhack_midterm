@@ -208,12 +208,19 @@
 
         <!-- Form questions -->
         <div class="questionsbox">
-            <h2>Do you have any questions?</h2>
+            <h3>Do you have any questions?</h3>
             <span>Let us help you!</span>
 
             <form action="" class="questionsForm">
-                <input type="text" class="question" placeholder="Enter your email">
-                <button type="submit" class="subscribe">Subscribe</button>
+                <div class="field">
+                    <p class="control has-icons-left has-icons-right">
+                        <input class="input" type="email" placeholder="Enter your email">
+                        <span class="icon is-small is-left">
+                            <i class="fa-regular fa-envelope"></i>
+                        </span>
+                    </p>
+                    <button type="submit" class="subscribe  button">Subscribe</button>
+                </div>
             </form>
         </div>
 
@@ -242,7 +249,7 @@
 
     </main>
 
-    
+    <script src="https://kit.fontawesome.com/1686e025e8.js" crossorigin="anonymous"></script>
     <script src="./js/navbar.js"></script>
 </body>
 </html>

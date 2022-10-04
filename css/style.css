@@ -13,6 +13,7 @@
 @import url(./projects.css);
 @import url(./clients.css);
 @import url(./services.css);
+@import url(./questions.css);
 
 /* --- vars --- */
 
@@ -41,7 +42,7 @@
     --ff: 'Roboto', sans-serif;
     --fs-body-intro: 24px;
     --fw-body-intro: medium;
-    --fs-body: 20;
+    --fs-body: 20px;
     --fw-body: regular;
 
     --fs-headline: 17px;
@@ -50,7 +51,9 @@
 }
 
 /* --- General --- */
-
+html, body{
+    width: 100%;
+}
 body{
     background-color: var(--backgroundColor);
     font-family: var(--ff);

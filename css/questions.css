@@ -1,0 +1,51 @@
+.questionsbox{
+    background-color: var(--questionColor);
+    text-align: center;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.questionsForm .field {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 15px 0px;
+}
+
+/* input */
+.questionsbox input{
+    background-color: var(--backgroundColor);
+    padding-left: 3em !important;
+    height: 80px !important;
+    min-width: 393px;
+}.questionsbox input::placeholder, .questionsbox i{
+    color: #000;
+}
+.questionsbox .control.has-icons-left .icon{
+    top: 10px;
+    font-size: 25px;
+}
+
+/*Button */
+.questionsForm button {
+    font-size: 17px !important;
+    color: white;
+    font-weight: 500;
+    min-width: 198px;
+    height: 80px;
+    border-color: var(--buttonColor);
+    background-color: var(--buttonColor);
+}
+
+/*Tablet*/
+@media (max-width:769px) {
+    .questionsForm .field,.questionsbox input{min-width: unset;}
+}
+/*Movil*/
+@media (max-width: 400px) {
+    .questionsForm .field{flex-direction: column;}
+}
