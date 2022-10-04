@@ -44,6 +44,7 @@
 /*Tablet*/
 @media (max-width:769px) {
     .questionsForm .field,.questionsbox input{min-width: unset;}
+    .questionsbox{min-height: 300px;}
 }
 /*Movil*/
 @media (max-width: 400px) {

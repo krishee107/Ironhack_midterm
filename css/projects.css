@@ -7,9 +7,9 @@
 }
 .card {
     padding:0 !important;
-    min-width: 340px;
+    width: 340px;
     margin: 0 auto;
-    max-width: 340px;
+    max-width: 90%;
 }
 .card-image{
     height: 240px;
@@ -44,5 +44,5 @@
 }
 
 @media (max-width: 600px) {
-    .project_cards {width: 90%}
+    .project_cards {width: 90%;}
 }
