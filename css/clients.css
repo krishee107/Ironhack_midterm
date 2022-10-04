@@ -10,6 +10,7 @@
     background-image: url("../img/testimonial-section/orbit.png");
     background-size: cover;
     background-position: center;
+    position: relative;
 }
 .clientsSay .media{align-items: center;}
 .clientsSay h3{color: #F4F6FC;}
@@ -38,21 +39,37 @@
     color: var(--backgroundColor);
 }
 
+/* memoji */
+.memoji{
+    position:absolute;
+    max-width: 150px;
+    width: 14%;
+}
+.memoji1{ 
+    top: 0;
+    left: 0;
+}.memoji2{ 
+    top: 0;
+    right: 0;
+}.memoji3{ 
+    bottom: 0;
+    left: 0;
+}.memoji4{ 
+    bottom: 0;
+    right: 0;
+}
+
 @media (max-width: 600px) {
     .clientsSay {
         gap: 30px;
         min-height: 300px;
     }
-    
     .clientsSay h3,.clientsSay h4 {
         max-width: 90%;
     }
 
-.clientsSay h4 {
-    font-size: 1.3em;
-}
+    .clientsSay h4 {font-size: 1.3em;}
+    .clientsSay h3 {font-size: 2em;}
 
-.clientsSay h3 {
-    font-size: 2em;
-}
+    .memoji{display: none;}
 }
