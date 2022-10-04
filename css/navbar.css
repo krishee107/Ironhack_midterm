@@ -19,6 +19,10 @@ a.navbar-item:hover{
     color: var(--buttonColor);
 }
 
+.navbar-item .buttons {
+    gap: 15px;
+    box-sizing: border-box;
+}
 
 .is-active{
     background-color: white;

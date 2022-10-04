@@ -1,0 +1,52 @@
+/* --- General --- */
+.dark-mode body{
+    background-color: #191c29;
+    color: lightgray !important;
+}
+
+/*H1, h2, h3...*/
+.dark-mode h1, .dark-mode h2, .dark-mode h3, .dark-mode h4{
+    color: white;
+}
+
+
+/* --- Navbar --- */
+.dark-mode a.navbar-item:first-child{
+    font-weight: bold;
+    color: var(--questionColor);
+}
+.dark-mode a.navbar-item:not(:first-child){
+    color: white;
+    font-weight: 400;
+}
+
+
+/* --- Hero --- */
+.dark-mode .hero-box__text, .dark-mode .hero-box__button{
+    color: lightgray;
+}
+
+
+/* --- Sponsor --- */
+.dark-mode .sponsor img{
+    filter: unset
+}
+
+/* --- Projects --- */
+.dark-mode .card-title h4{
+    color: var(--titleColor);
+}
+
+
+/* --- Clients --- */
+.dark-mode .clientsSay h3{color: var(--questionColor);}
+
+
+
+/* --- Question --- */
+.dark-mode .questionsbox h3{ color: var(--titleColor);}
+.dark-mode .questionsbox span{ color: white}
+
+
+/* --- Footer --- */
+.dark-mode .footerItem, .dark-mode .address{color:white}

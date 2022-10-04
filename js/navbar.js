@@ -7,3 +7,11 @@ btn.addEventListener('click', () =>{
     nav.classList.toggle('is-active');
 
 });
+
+
+/*Modo oscuro*/
+const lightMode = document.querySelector('.light-mode');
+lightMode.addEventListener('click', () =>{
+    lightMode.classList.toggle('oscuro');
+    document.querySelector('html').classList.toggle('dark-mode')
+})
