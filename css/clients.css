@@ -63,6 +63,7 @@
     .clientsSay {
         gap: 30px;
         min-height: 300px;
+        margin-top: 7%;
     }
     .clientsSay h3,.clientsSay h4 {
         max-width: 90%;

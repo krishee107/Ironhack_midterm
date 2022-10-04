@@ -1,0 +1,26 @@
+.service{
+    max-width: 340px;
+}
+.servicesBox {
+    gap: 40px;
+    margin: 5% auto;
+}
+.serviceImg{
+    width: 80px;
+    height: 80px;
+    background: var(--color4);
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    margin: 7% 6%;
+    margin-bottom: unset;
+}.serviceImg img{
+    width: 50%;
+    height: 50%;
+}
+
+@media (max-width:769px) {
+    .servicesBox {
+        width: 90%;
+    }
+}
