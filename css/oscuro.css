@@ -50,3 +50,9 @@
 
 /* --- Footer --- */
 .dark-mode .footerItem, .dark-mode .address{color:white}
+
+
+
+/* --- project page --- */
+.dark-mode .project-name h1, .dark-mode .project-date span{color:var(--questionColor)}
+.dark-mode .project-info article{ color:  lightgray;}
