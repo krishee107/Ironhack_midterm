@@ -7,7 +7,9 @@
 }
 .card {
     padding:0 !important;
-    width: 340px;
+    min-width: 340px;
+    max-width: 90%;
+    margin: 0 auto;
 }
 .card-image{
     height: 240px;
@@ -34,12 +36,6 @@
     color: var(--buttonColor);
 }
 
-@media (max-width:1023px) {
-    .projects {
-        max-width: 90%;
-        margin: 0 auto;
-    }
-}
 
 @media (max-width: 799px) {
     .card-image{
