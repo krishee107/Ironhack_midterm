@@ -50,7 +50,7 @@
           <div class="control">
             <!--Full name -->
             <label for="full name">Full Name*</label>
-            <input class="input" type="text" placeholder="Enter your full name">
+            <input class="input full-name-input" type="text" placeholder="Enter your full name" required> 
           </div>
 
           
@@ -58,19 +58,19 @@
             <!--Email -->
             <div class="email control">
               <label for="email">Email</label>
-              <input class="input" type="email" placeholder="Enter your email address">
+              <input class="input email-input" type="email" placeholder="Enter your email address">
             </div>
             <!--Phone -->
             <div class="email control">
               <label for="email">Phone</label>
-              <input class="input" type="email" placeholder="Enter your phone">
+              <input class="input phone-input" type="email" placeholder="Enter your phone">
             </div>
           </div>
 
           <div class="control">
               <!--Message-->
-              <label for="Message">Message</label>
-              <textarea class="textarea is-large" placeholder="Write your message here ...."></textarea>
+              <label for="Message">Message*</label>
+              <textarea class="textarea is-large message-input" placeholder="Write your message here ...."  required></textarea>
           </div>
 
           <button class="button">Submit</button>
@@ -100,5 +100,6 @@
 
     <script src="https://kit.fontawesome.com/1686e025e8.js" crossorigin="anonymous"></script>
     <script src="../js/navbar.js"></script>
+    <script src="../js/form.js"></script>
 </body>
 </html>
