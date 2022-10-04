@@ -63,6 +63,18 @@ html, body{
     gap: 100px;
 }
 
+a{
+    color:unset;
+    text-decoration: none;
+}
+
+.link:hover{
+    cursor: pointer;
+    color: var(--buttonColor);
+    font-weight: bold;
+    width: fit-content;
+}
+
 /* H1, h2, h3... */
 h1,h2,h3, h4{
     color: var(--titleColor);
