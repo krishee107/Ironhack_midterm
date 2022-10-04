@@ -92,10 +92,77 @@ h4{font-size: var(--title4-size);}
     border: none;
     border-radius: unset;
 }
-.button:hover{
-    color: white ;
+.button:hover:not(.see-our-work){
+    color: white;
+    opacity: 0.8;
+    transition: all 0.5s;
+    background-color: #051f93;
 }
 
+
+.get-in-touch{
+    background-color: var(--buttonColor) ;
+    margin-right: 40px;
+    min-width: 150px;
+    color:white;
+    min-height: 52px;
+}
+
+.see-our-work{
+    background-color: transparent;
+    color: var(--textColor);
+    font-weight: 500; 
+}.see-our-work:hover{
+    color:var(--buttonColor)
+}
+
+.contactButton {
+    background-color: var(--buttonColor);
+    min-width: 150px;
+    color: white;
+    min-height: 52px;
+}
+
+
+/* Keyframes */
+@keyframes wiggle {
+    0%, 7% {
+      transform: rotateZ(0);
+    }
+    15% {
+      transform: rotateZ(-15deg);
+    }
+    20% {
+      transform: rotateZ(10deg);
+    }
+    25% {
+      transform: rotateZ(-10deg);
+    }
+    30% {
+      transform: rotateZ(6deg);
+    }
+    35% {
+      transform: rotateZ(-4deg);
+    }
+    40%, 100% {
+      transform: rotateZ(0);
+    }
+  }
+
+  @keyframes float {
+    0% {
+      transform: translatey(0px);
+    }
+    50% {
+      transform: translatey(-20px);
+    }
+    100% {
+      transform: translatey(0px);
+    }
+  }
+
+
+/* Media */
 @media (max-width:1024px) {
     .container{
         gap: 35px;

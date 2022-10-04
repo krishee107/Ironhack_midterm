@@ -12,20 +12,6 @@
     max-width: 65%;
 }
 
-/* Botones */
-.get-in-touch{
-    background-color: var(--buttonColor) !important;
-    margin-right: 40px;
-    min-width: 150px;
-    min-height: 52px;
-}.see-our-work{
-    background-color: transparent !important;
-    color: var(--textColor);
-    font-weight: 500;
-}.see-our-work:hover{
-    color:var(--buttonColor) !important
-}
-
 /*Imagenes*/
 .infoBox__img{
     position: relative;
@@ -34,6 +20,7 @@
 .card1, .card2{
     position: absolute;
     max-width: 54% !important;
+    animation: float 6s ease-in-out infinite;
 }
 .card1{
     left: -7%;

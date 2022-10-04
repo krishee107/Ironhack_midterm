@@ -44,6 +44,7 @@
     position:absolute;
     max-width: 150px;
     width: 14%;
+    animation: wiggle 2s linear infinite;
 }
 .memoji1{ 
     top: 0;
