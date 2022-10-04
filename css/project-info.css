@@ -1,0 +1,41 @@
+/*Header*/
+.project-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-header h4{color: var(--textColor);}
+
+.project-date {
+    display: flex;
+    justify-content: space-between;
+    font-size: var(--fs-body);
+}.project-date {
+    align-self: end;
+    gap: 10px;
+}.project-date span {
+    color: var(--textColor);
+}
+
+/* Image */
+.project-image {
+    height: 444px;
+    overflow: hidden;
+    margin: 5% 0;
+}
+
+
+/* Article */
+.project-info article{
+    font-size: var(--fs-body);
+    color: var(--textColor);
+    word-break: break-all;
+}
+
+
+/*Tablet */
+@media (max-width:1024px) {
+    .project-date {
+        flex-direction:column
+    }
+}
