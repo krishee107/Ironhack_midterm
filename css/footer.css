@@ -1,0 +1,31 @@
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    padding: 0 2%;
+}
+
+.footerIzq {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.address,.footerDer{
+    color: var(--textColor);
+    font-size: var(--fs-headline);
+}
+
+.footerDer{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    width: 500px;
+    max-width: 50%;
+    row-gap: 60px;
+    padding: 0 0 5%;
+}
+
+@media (max-width:769px) {
+    .footer{
+        flex-direction: column;
+    }
+}
