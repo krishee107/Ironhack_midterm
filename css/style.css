@@ -64,7 +64,7 @@ html, body{
     gap: 100px;
 }
 
-a{
+a,a:hover{
     color:unset;
     text-decoration: none;
 }
