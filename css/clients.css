@@ -12,7 +12,7 @@
     background-position: center;
     position: relative;
 }
-.clientsSay .media{align-items: center;}
+.clientsSay .media{align-items: center;text-align: left;}
 .clientsSay h3{color: #F4F6FC;}
 .clientsSay h4{
     color: var(--questionColor);
