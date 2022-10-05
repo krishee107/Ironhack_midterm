@@ -16,11 +16,11 @@ lightMode.addEventListener('click', () =>{
     //Si ya tenía modo oscuro
     if(document.querySelector('html').classList.contains('dark-mode')){
         //Lo quitamos
-        document.cookie = "dark=false";
+        document.cookie = "dark=false; expires=Thu, 18 Dec 2023 12:00:00 UTC; path=/";
     }
     else{
         //Lo ponemos
-        document.cookie = "dark=true";
+        document.cookie = "dark=true; expires=Thu, 18 Dec 2023 12:00:00 UTC; path=/";
     }
     
     lightMode.classList.toggle('oscuro');
