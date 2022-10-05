@@ -12,6 +12,28 @@ btn.addEventListener('click', () =>{
 /*Modo oscuro*/
 const lightMode = document.querySelector('.light-mode');
 lightMode.addEventListener('click', () =>{
+    
+    //Si ya tenía modo oscuro
+    if(document.querySelector('html').classList.contains('dark-mode')){
+        //Lo quitamos
+        document.cookie = "dark=false";
+    }
+    else{
+        //Lo ponemos
+        document.cookie = "dark=true";
+    }
+    
     lightMode.classList.toggle('oscuro');
     document.querySelector('html').classList.toggle('dark-mode')
+
+})
+
+//Comprobamos si ya tiene el modo oscuro al cargar la página
+window.addEventListener('load', () =>{
+    //Tiene modo oscuro
+    if(document.cookie.includes('dark=true')){
+        document.querySelector('html').classList.toggle('dark-mode')  
+        lightMode.classList.toggle('oscuro');  
+        console.log('Modo oscuro')
+    }
 })
