@@ -21,6 +21,9 @@
 /*Modo oscuro*/
 @import url(./oscuro.css);
 
+/*Extra fuera de midterm */
+@import url(./extra/about.css);
+
 /* --- vars --- */
 
 :root{
@@ -61,6 +64,7 @@ html, body{
     width: 100%;
     background-color: var(--backgroundColor);
     font-family: var(--ff);
+    min-height: 100vh;
 }
 
 .container{

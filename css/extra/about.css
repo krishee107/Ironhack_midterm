@@ -1,0 +1,14 @@
+.about-us {margin: 0 auto;}
+
+@media(max-width:1023px){
+.about-us {max-width: 95%;}
+ 
+.about-us-team_info {order: 1;}
+.about-us-team_img {order: 2;}
+}
+
+
+/*Darkmode*/
+.dark-mode .about-us h1, .dark-mode .about-us h2 {color: var(--questionColor);}
+
+.dark-mode .about-us p {color: lightgray;}
