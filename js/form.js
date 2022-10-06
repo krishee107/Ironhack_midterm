@@ -1,5 +1,4 @@
 const submit = document.querySelector('.contact-form .button');
-
 submit.addEventListener('click', (e) =>{
     e.preventDefault();
 	re=/^([\da-z_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
@@ -13,13 +12,13 @@ submit.addEventListener('click', (e) =>{
     //Validar form
     //Si no ha llenado los campos obligatorios
     if(nombre.value.trim() === "" || message.value.trim() ===""){
-        window.alert('Es necesario llenar el nombre y el mensaje');
+        swal("Error", "Es necesario llenar el nombre y el mensaje", "error");
     //Si el email no es un email
     }else if(email.value.trim() != "" && !re.exec(email.value))
-        window.alert('El email no es válido');
+        swal("Error", "El email no es válido", "error");
     //Si el teléfono no es válido
     else if( phone.value != "" && ((phone.value).length != 9 || isNaN(phone.value)) )
-        window.alert('Teléfono no válido');
+        swal("Error", "Teléfono no válido", "error");
     //Si todo está bien
     else{
         contact = {};
@@ -40,4 +39,3 @@ submit.addEventListener('click', (e) =>{
     }
 
 })
-
