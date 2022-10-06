@@ -1,4 +1,7 @@
 /* --- General --- */
+html.dark-mode {
+    background-color: #191c29;
+}
 .dark-mode body{
     background-color: #191c29;
     color: lightgray !important;
@@ -28,7 +31,9 @@
     color: black;
 }
 
-
+.dark-mode #menu-hamburguesa.is-active a {
+    color: var(--titleColor) !important;
+}
 /* --- Hero --- */
 .dark-mode .hero-box__text, .dark-mode .hero-box__button{
     color: lightgray;
