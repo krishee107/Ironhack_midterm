@@ -1,4 +1,9 @@
 .about-us {margin: 0 auto;}
+.about-us p {
+    word-break: break-all;
+    text-align: justify;
+}
+
 
 @media(max-width:1023px){
 .about-us {max-width: 95%;}

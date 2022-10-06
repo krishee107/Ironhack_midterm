@@ -11,13 +11,17 @@
 
 
 /* --- Navbar --- */
-.dark-mode a.navbar-item:first-child{
+.dark-mode a.navbar-item:first-child:not(.is-hoverable a.navbar-item){
     font-weight: bold;
     color: var(--questionColor);
 }
-.dark-mode a.navbar-item:not(:first-child){
+.dark-mode a.navbar-item:not(:first-child), .dark-mode .is-hoverable a:not(.is-hoverable .navbar-item) {
     color: white;
     font-weight: 400;
+}
+
+.dark-mode .is-hoverable a.navbar-link:hover {
+    color: black;
 }
 
 

@@ -15,7 +15,7 @@ a.navbar-item:hover{
     font-size: var( --fs-headline);
     font-weight: 500;
     gap: 60px;
-}.navbar-items a:first-child{
+}.navbar-items a:first-child:not(.is-hoverable a){
     color: var(--buttonColor);
 }
 
