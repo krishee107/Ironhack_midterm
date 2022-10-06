@@ -1,0 +1,14 @@
+.press h1{padding-bottom: 2%;}
+
+.press .tile.is-child {background: white;box-shadow: 12px 7px 20px 6px rgb(213 213 213);}
+
+.press .tile.is-child .title {
+    border-bottom: 4px double;
+    width: fit-content;
+    margin-bottom: 10%;
+}
+
+/* Dark mode */
+.dark-mode .press {color: black;}
+.dark-mode .press .tile.is-child {box-shadow: 12px 7px 20px 6px rgb(64 58 39);}
+.dark-mode .press h1 {color: var(--questionColor);}
