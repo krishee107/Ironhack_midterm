@@ -24,8 +24,6 @@ submit.addEventListener('click', (e) =>{
     else{
         contact = {};
 
-
-
         //Los añadimos
         contact.nombre = nombre.value;
         contact.email = email.value ;

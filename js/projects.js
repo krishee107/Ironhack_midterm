@@ -20,7 +20,7 @@ getProjects = (numProjects) =>{
                                 <h4>${title}</h4>
                             </div>
                             <div class="card-text">${text}</div>
-                            <div class="card-link  link"><a href="../html/project-page.html?project=${i}">Learn more</a></div>
+                            <div class="card-link  link"><a href="./html/project-page.html?project=${i}">Learn more</a></div>
                         </div>
                     </div>`
             document.querySelector('.project_cards').innerHTML = html;
