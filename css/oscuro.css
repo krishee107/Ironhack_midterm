@@ -58,7 +58,7 @@ html.dark-mode {
 
 /* --- Question --- */
 .dark-mode .questionsbox h3{ color: var(--titleColor);}
-.dark-mode .questionsbox span{ color: white}
+.dark-mode .questionsbox span{color: black;}
 
 
 /* --- Footer --- */
